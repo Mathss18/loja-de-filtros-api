@@ -5,7 +5,9 @@
   "scripts": {
     "start": "tsx src/index.ts",
     "start:dev": "tsx watch src/index.ts",
-    "build": "tsup src"
+    "start:prod": "npm run build && pm2-runtime dist/index.js",
+    "build": "tsup && npm run copy-mail-templates",
+    "copy-mail-templates": "mkdir -p dist/mail/templates && cp -r src/mail/templates/* dist/mail/templates/"
   },
   "devDependencies": {
     "@types/cors": "^2.8.14",

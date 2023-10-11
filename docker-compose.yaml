@@ -1,0 +1,17 @@
+version: "3.9"
+
+services:
+  nodejs:
+    image: node:18.14
+    command: sh -c "npm i && npm run start:prod"
+    ports:
+      - "3000:3000"
+    container_name: loja-de-filtros-nodejs
+    user: node
+    volumes:
+      - .:/node_app
+    working_dir: /node_app
+    environment:
+      - NODE_ENV=development
+    env_file:
+      - .env
