@@ -3,7 +3,7 @@ version: "3.9"
 services:
   nodejs:
     image: node:18.14
-    command: sh -c "npm i pm2 -g && npm i && npm run start:prod"
+    command: sh -c "npm i && npm i pm2 -g && && npm run start:prod"
     ports:
       - "3000:3000"
     container_name: loja-de-filtros-nodejs
