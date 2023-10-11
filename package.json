@@ -5,7 +5,7 @@
   "scripts": {
     "start": "tsx src/index.ts",
     "start:dev": "tsx watch src/index.ts",
-    "start:prod": "npm run build && pm2-runtime dist/index.js",
+    "start:prod": "npm run build && node dist/index.js",
     "build": "tsup && npm run copy-mail-templates",
     "copy-mail-templates": "mkdir -p dist/mail/templates && cp -r src/mail/templates/* dist/mail/templates/"
   },
