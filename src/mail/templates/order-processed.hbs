@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    /* Adicionando um estilo básico */
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      margin: 0;
+      padding: 0;
+    }
+    .container {
+      max-width: 600px;
+      margin: 20px auto;
+      background-color: #f9f9f9;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    .header {
+      background-color: #9d6335 ;
+      color: white;
+      padding: 10px;
+      text-align: center;
+      border-radius: 8px 8px 0 0;
+    }
+    .content {
+      padding: 20px;
+      font-size: 16px;  /* Add this line */
+    }
+    .footer {
+      text-align: center;
+      margin-top: 20px;
+      font-size: 12px;
+      color: #888;
+    }
+    /* Adicionando estilo ao botão */
+    .button {
+      display: inline-block;
+      padding: 12px 24px;
+      margin: 20px 0;
+      color: #fff;
+      background-color: #9d6335 ;
+      border: none;
+      border-radius: 4px;
+      text-align: center;
+    }
+    .button:hover {
+      background-color: #dfccb3;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <!-- Seção do cabeçalho -->
+    <div class="header">
+      <h1>🎉 Seu Pedido Foi Processado! 🎉</h1>
+    </div>
+
+    <!-- Seção de conteúdo -->
+    <div class="content">
+      <p>Olá, <b>{{customerName}}</b></p>
+      <p>Beleza? Valeu pela compra! 😎 Tá tudo certo com o seu pedido <b>n° #{{orderNumber}}</b> e ele já tá sendo feito! 🚀</p>
+      
+      <p>Se aparecer alguma dúvida ou você precisar de algo, é só chamar a gente, tá? 😉</p>
+      
+      <!-- Adicione um botão para rastreamento -->
+      {{!-- <a href="[URL de Rastreamento]" class="button">📍 Rastrear Pedido</a> --}}
+
+      <p>Muito obrigado por comprar com a gente! 👊</p>
+      <b>Loja de Filtros</b>
+    </div>
+
+    <!-- Seção de rodapé -->
+    <div class="footer">
+      <p>&copy; 2023 Loja de Filtros. Todos os direitos reservados.</p>
+    </div>
+  </div>
+</body>
+</html>

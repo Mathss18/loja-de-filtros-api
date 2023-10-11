@@ -1,0 +1,166 @@
+{
+    "id": 485,
+    "parent_id": 0,
+    "status": "pending",
+    "currency": "BRL",
+    "version": "8.1.1",
+    "prices_include_tax": false,
+    "date_created": "2023-10-03T16:42:28",
+    "date_modified": "2023-10-03T16:42:28",
+    "discount_total": "0.00",
+    "discount_tax": "0.00",
+    "shipping_total": "0.00",
+    "shipping_tax": "0.00",
+    "cart_tax": "0.00",
+    "total": "0.01",
+    "total_tax": "0.00",
+    "customer_id": 2,
+    "order_key": "wc_order_slVHODqgzWUq2",
+    "billing": {
+        "first_name": "Matheus",
+        "last_name": "Filho",
+        "company": "",
+        "address_1": "Rua Bofete, 79",
+        "address_2": "",
+        "city": "Piracicaba",
+        "state": "SP",
+        "postcode": "13402-803",
+        "country": "BR",
+        "email": "esdc1984@hotmail.om",
+        "phone": "19983136930"
+    },
+    "shipping": {
+        "first_name": "",
+        "last_name": "",
+        "company": "",
+        "address_1": "Rua Bofete, 79",
+        "address_2": "",
+        "city": "Piracicaba",
+        "state": "SP",
+        "postcode": "13402-803",
+        "country": "BR",
+        "phone": ""
+    },
+    "payment_method": "woo-mercado-pago-pix",
+    "payment_method_title": "Pix",
+    "transaction_id": "",
+    "customer_ip_address": "181.222.222.72",
+    "customer_user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36",
+    "created_via": "checkout",
+    "customer_note": "",
+    "date_completed": null,
+    "date_paid": null,
+    "cart_hash": "cc847edc35b8a4fd6c412f3bd36bb6fe",
+    "number": "485",
+    "meta_data": [
+        {
+            "id": 3110,
+            "key": "is_vat_exempt",
+            "value": "no"
+        },
+        {
+            "id": 3111,
+            "key": "is_production_mode",
+            "value": "yes"
+        },
+        {
+            "id": 3112,
+            "key": "_used_gateway",
+            "value": "WC_WooMercadoPago_Pix_Gateway"
+        },
+        {
+            "id": 3113,
+            "key": "_Mercado_Pago_Payment_IDs",
+            "value": "64521089465"
+        },
+        {
+            "id": 3114,
+            "key": "mp_transaction_amount",
+            "value": "0.01"
+        },
+        {
+            "id": 3115,
+            "key": "mp_pix_qr_base64",
+            "value": "iVBORw0KGgoAAAANSUhEUgAABWQAAAVkAQAAAAB79iscAAAI00lEQVR42u3dUW7kNgwGYN3A97+lb+AC7XZ3TP7SzCKLorE+PwRJPJY+zxtBihzXN7rOQUtLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0v757WjXsfP/x3/fLZef/+vrPjrsR93y4+r3X1d/sgMWlpaWlpaWlpaWlraTbRH27as3ha+vcbPNV/uvn7u37vtC0qLJhUtLS0tLS0tLS0tLe0G2tcA8rjfKLwC/RUT9jC08Npvfd/EoKWlpaWlpaWlpaWl3VN7huhwNFl7q0Iu7nNGpqWlpaWlpaWlpaWlpa1bHCHPVzJvvRxzttlI0JIepKWlpaWlpaWlpaWl3Vs7PdZWIsGc+7udXiuZvJw3LPWc15dqRGlpaWlpaWlpaWlpab+7dhIE/tc/vtBThZaWlpaWlpaWlpaW9jtr89UjvGmcOA0Hp6m7nOxbWGhpaWlpaWlpaWlpaZ+tnfTtbz1HzvaRRRhaZOc9MOyJwkWyj5aWlpaWlpaWlpaW9tna3EbkCIfepqfmUk1mihhL/5Nrdrd9hJaWlpaWlpaWlpaW9tnaFOudGTAt1pxuW+7muHPkmW20tLS0tLS0tLS0tLQ7aa9F5i1HkeN12tqCcoRXu3KJZgpIaWlpaWlpaWlpaWlpn65N+6QosoV5qavImSewleltraH/uBdcftSlhJaWlpaWlpaWlpaW9jna6XG1lL+bHIlbvEsfzZaDzzQ3m5aWlpaWlpaWlpaWdgNt6RGSTqWlViWtq0iJBI+cN0wpwymelpaWlpaWlpaWlpZ2H22afZ2ycWk6Wmo/2W5MnmhxZ+8jSUtLS0tLS0tLS0tLu4W29ejvKbkkawusqi5TN8pU2bmsuqSlpaWlpaWlpaWlpX2sdrVtiiJT/DddKtdpnq2UMycDaWlpaWlpaWlpaWlpt9DeosgW9R25j2SroRzhDUZu2Z/v5vwiLS0tLS0tLS0tLS3tk7VlpRbcHYt9ivE1OddjwpYovO7fUmpQQktLS0tLS0tLS0tLu4E2HUNL4eA0LzcNAks6LxVXtvaT76suaWlpaWlpaWlpaWlpn6c9PszzpcLMM/c1SaFkLsy8lg39aWlpaWlpaWlpaWlpN9C2BiUjD19rkeCZu5Sk+ssWbaYpAdd9lYOWlpaWlpaWlpaWlnYvbQ8WU8YvFUhO84HlI+uvYFqsSUtLS0tLS0tLS0tL+3RtO8w2SfYtRqSN17NyqZQzHbZrr3vcyzFpaWlpaWlpaWlpaWl30eYBaqmNyGhbtBEAt/RgyuktDseV74aWlpaWlpaWlpaWlnYX7SIRN8nf5UgwZffezmJLzSRbApCWlpaWlpaWlpaWlvbZ2ulTJTAsO7ZnU8Flatl/Lm6kJCMtLS0tLS0tLS0tLe1m2laEOfKw61JNmZ+dUKahZP5aaGlpaWlpaWlpaWlpn669csf9tFlLBY5WQ1mmZefha+eHB/BoaWlpaWlpaWlpaWm30J4tfAuR3WRWdXnsmJVUroZdr0s0aWlpaWlpaWlpaWlpn65tR92uUDQ5+TM/O2lGkt4+P3vR0tLS0tLS0tLS0tLupE0rpcAwT0x7W3WZyiy/XnVJS0tLS0tLS0tLS0v7KO30+WMR+qUWkqV5f0kKlorNsvnioqWlpaWlpaWlpaWlfbb2NVc3lv1KiuLMRZOllLPNXbvCCIASO7ZIlZaWlpaWlpaWlpaW9vHafGbtDKm2K2T8uiI37z/yMLcyLftNjSgtLS0tLS0tLS0tLe3TtCXqy/1KyuzrYxaBTuo0p8HnYl9aWlpaWlpaWlpaWtqttK1bf5msVqokJ0FgKcxMMWauzpzMyKalpaWlpaWlpaWlpd1E2ysiS4Lt3QC1a1mYWQo4z1nB5Wj5QFpaWlpaWlpaWlpa2i2068/mFN8VDq6d9yDwbHMA0irTqstZFElLS0tLS0tLS0tLS/tE7WiFlDlETOWYPQhsxZWjvV/781x0R6GlpaWlpaWlpaWlpd1Hu+gUWXJ/53ibHjxbH8lWwHlboIxwex9F0tLS0tLS0tLS0tLSPkqb48Qj5P7K3mebwDZtaZKC1BRjLruU0NLS0tLS0tLS0tLSPlHbGz2Wu+Wt8rDraWf+nrorMWRueEJLS0tLS0tLS0tLS7uPdoTBaGXhfEgtPjF98dfHSquSI4ewtLS0tLS0tLS0tLS0W2jz/LMjVESeYzIMYJqXK3v0HGHLAn7U1Z+WlpaWlpaWlpaWlvZh2isMWps09E8DsFM+cH1qrtVzXvlPWlpaWlpaWlpaWlraLbRp23TUrUWHvQ9Jnml9zTqhjNlJOlpaWlpaWlpaWlpa2q20xZ0b9fd9WrfHJBv3U3PHLNnXI0taWlpaWlpaWlpaWtp9tK2k8mzkV3fvNJLGpqXf2gi3FLheobyTlpaWlpaWlpaWlpb22doUQJbYsfUhGfdE3FhMsp62hswfft+lhJaWlpaWlpaWlpaW9mnaXBHZu5SkuWtT7bTJf1mg5f7SkDZaWlpaWlpaWlpaWtottCMchJu0i/x0nloq4MwVliMkFGlpaWlpaWlpaWlpaXfRrs/FTQszU4iYo9JJu/9ForBctLS0tLS0tLS0tLS0z9auqx/fAUYIDNOPntPLkwPGJ139aWlpaWlpaWlpaWlpH6Y9Wv4unYvLrzZCP/5x71Jyhb79pSfK70SRtLS0tLS0tLS0tLS0j9ROA8hWUnnk/414HXmUWtv3d2pEaWlpaWlpaWlpaWlpN9KerQH/9Eb73Fg+m5a6Ps7u0dLS0tLS0tLS0tLSbqAddeBZbUGSw8tyQq6XcuYEYEnxHbS0tLS0tLS0tLS0tNtpG/5tsJhKL6dPlBfK77yYK0BLS0tLS0tLS0tLS/ts7ViEg62N/7hPVksZutSbZCXL4SotLS0tLS0tLS0tLe0u2v//RUtLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0v7x7R/AbmaJt8ourf7AAAAAElFTkSuQmCC"
+        },
+        {
+            "id": 3116,
+            "key": "mp_pix_qr_code",
+            "value": "00020126580014br.gov.bcb.pix0136db7fee1c-56fb-41f8-8e4f-1ef04f54552f52040000530398654040.015802BR5909MATHSSMF26010Piracicaba62240520mpqrinter6452108946563047226"
+        },
+        {
+            "id": 3117,
+            "key": "checkout_pix_date_expiration",
+            "value": "30 minutes"
+        },
+        {
+            "id": 3118,
+            "key": "pix_on",
+            "value": "1"
+        },
+        {
+            "id": 3119,
+            "key": "Mercado Pago - Payment 64521089465",
+            "value": "[Date 2023-10-03 19:42:31]/[Amount 0.01]/[Payment Type bank_transfer]/[Payment Method pix]/[Paid 0.01]/[Coupon 0]/[Refund 0]"
+        },
+        {
+            "id": 3120,
+            "key": "Mercado Pago - 64521089465 - payment_type",
+            "value": "bank_transfer"
+        }
+    ],
+    "line_items": [
+        {
+            "id": 4,
+            "name": "Produto Teste",
+            "product_id": 13,
+            "variation_id": 0,
+            "quantity": 1,
+            "tax_class": "",
+            "subtotal": "0.01",
+            "subtotal_tax": "0.00",
+            "total": "0.01",
+            "total_tax": "0.00",
+            "taxes": [],
+            "meta_data": [],
+            "sku": "",
+            "price": 0.01,
+            "image": {
+                "id": "360",
+                "src": "https://loja-de-filtros.s3.sa-east-1.amazonaws.com/wp-content/uploads/2023/09/30174241/filtro-00001-01.png"
+            },
+            "parent_name": null
+        }
+    ],
+    "tax_lines": [],
+    "shipping_lines": [],
+    "fee_lines": [],
+    "coupon_lines": [],
+    "refunds": [],
+    "payment_url": "https://lojadefiltros.com.br/finalizar-compra/order-pay/485/?pay_for_order=true&key=wc_order_slVHODqgzWUq2",
+    "is_editable": true,
+    "needs_payment": true,
+    "needs_processing": true,
+    "date_created_gmt": "2023-10-03T19:42:28",
+    "date_modified_gmt": "2023-10-03T19:42:28",
+    "date_completed_gmt": null,
+    "date_paid_gmt": null,
+    "currency_symbol": "R$",
+    "_links": {
+        "self": [
+            {
+                "href": "https://lojadefiltros.com.br/wp-json/wc/v3/orders/485"
+            }
+        ],
+        "collection": [
+            {
+                "href": "https://lojadefiltros.com.br/wp-json/wc/v3/orders"
+            }
+        ],
+        "customer": [
+            {
+                "href": "https://lojadefiltros.com.br/wp-json/wc/v3/customers/2"
+            }
+        ]
+    }
+}
