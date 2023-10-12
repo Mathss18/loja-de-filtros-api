@@ -20,6 +20,7 @@ export class OrderCreatedController implements IController {
 
   async handle(httpRequest: HttpRequest<OrderModel>): Promise<HttpResponse> {
     try {
+      console.log(`[OrderCreatedController] - status: ${httpRequest.body.status}`);
       if (httpRequest.body.status === "processing") {
         this.sendProcessingEmail(httpRequest);
         return success({});
